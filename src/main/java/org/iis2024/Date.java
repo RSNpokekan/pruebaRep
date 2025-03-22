@@ -61,10 +61,18 @@ public class Date {
    * @param jahr The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
+<<<<<<< HEAD
   public Date(int tag, int monat, int jahr) {
     this.day = tag;
     this.month = monat;
     this.year = jahr;
+=======
+  //Constructor added by the owner
+  public Date (int dia, int mes, int anyo){
+    this.day = dia;
+    this.month = mes;
+    this.year = anyo;
+>>>>>>> faf46cdf01b526abcebe85d6119c3dc3c057c9ca
   }
 
   /**
